@@ -1,0 +1,693 @@
+@media (max-width: 426px) {
+    .wrapper {
+        max-width: 343px;
+    }
+
+    /* header */
+    header {
+        display: none;
+    }
+    .mobile__header {
+        display: block;
+    }
+
+    .header__title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        width: 150px;
+        display: inline-block;
+        margin-right: 150px;
+    }
+    nav {
+        display: none;
+    }
+
+    /* hero */
+    .hero {
+        padding: 64px 0;
+        margin-bottom: 0px;
+    }
+
+    .hero__card {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .hero__image {
+        width: 280px;
+        height: 300px;
+        margin-bottom: 48px;
+        margin-left: 31px;
+    }
+    .hero__image:hover {
+        scale: 1;
+    }
+    .hero__cards {
+        width: 343px;
+    }
+    .hero__title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 8px;
+    }
+
+    .hero__text {
+        width: 343px;
+        height: 168px;
+        color: black;
+        margin-bottom: 48px;
+    }
+
+    .hero__location {
+        color: white;
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .hero__icons {
+        display: flex;
+        gap: 15px;
+    }
+    /* first-page */
+
+    .first__page {
+        background-color: white;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        margin-bottom: 0px;
+    }
+
+    .first__pages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first__title {
+        font-size: 14px;
+        text-align: center;
+        padding: 4px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        width: 105px;
+        height: 28px;
+        border-radius: 12px;
+        color: black;
+        background-color: white;
+    }
+    .first__page-img {
+        width: 280px;
+        height: 300px;
+        margin-bottom: 48px;
+        margin-left: 31px;
+    }
+    .first__page-img:hover {
+        scale: 1;
+    }
+    .first__text-title {
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .first__text-type {
+        font-size: 16px;
+        color: black;
+        width: 343px;
+        margin-bottom: 16px;
+    }
+
+    .first__list {
+        margin-bottom: 16px;
+        padding-left: 15px;
+        width: 343px;
+    }
+    .first__list-type {
+        & ul {
+            height: 48px;
+            & li {
+                color: black;
+                width: 166px;
+                height: 48px;
+                line-height: 24px;
+            }
+        }
+    }
+    .first__list-text {
+        margin-bottom: 16px;
+        & ul {
+            height: 48px;
+            & li {
+                color: black;
+                width: 166px;
+                height: 48px;
+            }
+        }
+    }
+
+    /* skill page */
+
+    .skills__page {
+        margin-bottom: 0px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        background-color:white;
+    }
+    .skills__title {
+        font-size: 14px;
+        padding: 4px 20px;
+        text-align: center;
+        margin-bottom: 16px;
+        width: 105px;
+        height: 28px;
+        border-radius: 12px;
+        color: black;
+        background-color: white;
+    }
+    .skills__text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        color: black;
+        margin-bottom: 24px;
+    }
+
+    .first__skills-list {
+        display: none;
+    }
+
+    .second__skills-list {
+        display: none;
+    }
+
+    /* skills mobile version */
+
+    .skills__mobile {
+        display: block;
+        width: 343px;
+    }
+    .first__skill-page {
+        margin-bottom: 16px;
+        justify-content: space-between;
+        display: flex;
+    }
+    .second__skill-page {
+        margin-bottom: 16px;
+        justify-content: space-between;
+        display: flex;
+    }
+    .thrid__skill-page {
+        margin-bottom: 16px;
+        justify-content: space-between;
+        display: flex;
+    }
+    .fourth__skill-page {
+        margin-bottom: 16px;
+        justify-content: space-between;
+        display: flex;
+    }
+    .fifth__skill-page {
+        margin-bottom: 16px;
+        justify-content: space-between;
+        display: flex;
+    }
+    .sixth__skill-page {
+        margin-left: 15px;
+    }
+    .skills__mobile-img {
+        height: 96px;
+    }
+
+    /* experience-page */
+    .laptop__exp-page {
+        display: none;
+    }
+
+    .mobile__exp-page {
+        display: block;
+        background-color:white;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        margin-bottom: 0px;
+    }
+
+    .experience__text {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        color: black;
+        margin-bottom: 24px;
+    }
+
+    .first__exp-card {
+        width: 343px;
+        height: 372px;
+        border-radius: 12px;
+        margin-bottom: 24px;
+        & ul {
+            width: 279px;
+            height: 180px;
+            & li {
+                line-height: 24px;
+                margin-left: auto;
+                margin-right: auto;
+                color: black;
+                margin-bottom: 4px;
+                width: 279px;
+            }
+        }
+    }
+
+    .first__exp-card:hover {
+        scale: 1;
+    }
+
+    .first__exp__head {
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
+    .upwork__logo {
+        width: 102px;
+        height: 28px;
+        margin-bottom: 16px;
+    }
+    .exp__header-title {
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+
+    /* second exp */
+
+    .second__exp-card {
+        width: 343px;
+        height: 372px;
+        border-radius: 12px;
+        margin-bottom: 24px;
+        & ul {
+            width: 279px;
+            height: 180px;
+            & li {
+                line-height: 24px;
+                margin-left: auto;
+                margin-right: auto;
+                color: black;
+                margin-bottom: 4px;
+                width: 279px;
+            }
+        }
+    }
+
+    .second__exp-card:hover {
+        scale: 1;
+    }
+
+    .second__exp__head {
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
+
+    /* thrid exp card */
+
+    .thrid__exp-card {
+        width: 343px;
+        height: 372px;
+        border-radius: 12px;
+        margin-bottom: 24px;
+        & ul {
+            width: 279px;
+            height: 180px;
+            & li {
+                line-height: 24px;
+                margin-left: auto;
+                margin-right: auto;
+                color: black;
+                margin-bottom: 4px;
+                width: 279px;
+            }
+        }
+    }
+
+    .thrid__exp-card:hover {
+        scale: 1;
+    }
+
+    .thrid__exp__head {
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
+
+    /* work page */
+    .work__cards {
+        display: none;
+    }
+    .work__cards-mobile {
+        display: block;
+    }
+
+    /* first work card */
+
+    .first__work-card {
+        flex-direction: column;
+        width: 343px;
+        margin-bottom: 24px;
+    }
+    .first__work-left {
+        padding: 32px;
+        background-color: white;
+    }
+    .first__work-image {
+        width: 279px;
+        height: 192px;
+        border-radius: 12px;
+    }
+    .first__work-right {
+        padding: 32px;
+    }
+    .right__work-title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 24px;
+        line-height: 28px;
+    }
+    .right__work-text {
+        color: black;
+        width: 279px;
+        height: 144px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+
+    .first__work-list {
+        width: 279px;
+        height: 172px;
+        margin-bottom: 24px;
+    }
+    .header__work-list {
+        flex-wrap: wrap;
+    }
+    .main__work-list {
+        flex-wrap: wrap;
+    }
+    .footer__work-list {
+        flex-wrap: wrap;
+    }
+
+    /* second work card */
+
+    .second__work-card {
+        flex-direction: column;
+        width: 343px;
+        margin-bottom: 24px;
+    }
+    .second__work-left {
+        padding: 32px;
+        background-color: white;
+    }
+    .second__work-image {
+        width: 279px;
+        height: 192px;
+        border-radius: 12px;
+    }
+    .second__work-right {
+        padding: 32px;
+    }
+    .right__work-title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 24px;
+        line-height: 28px;
+    }
+    .right__work-text {
+        color: black;
+        width: 279px;
+        height: 144px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+
+    .second__work-list {
+        width: 279px;
+        height: 172px;
+        margin-bottom: 24px;
+    }
+    .header__work-list {
+        flex-wrap: wrap;
+    }
+    .main__work-list {
+        flex-wrap: wrap;
+    }
+    .footer__work-list {
+        flex-wrap: wrap;
+    }
+
+    /* thrid work card */
+
+    .thrid__work-card {
+        flex-direction: column;
+        width: 343px;
+        margin-bottom: 24px;
+    }
+    .thrid__work-left {
+        padding: 32px;
+        background-color: white;
+    }
+    .thrid__work-image {
+        width: 279px;
+        height: 192px;
+        border-radius: 12px;
+    }
+    .thrid__work-right {
+        padding: 32px;
+    }
+    .right__work-title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 24px;
+        line-height: 28px;
+    }
+    .right__work-text {
+        color: black;
+        width: 279px;
+        height: 144px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+
+    .thrid__work-list {
+        width: 279px;
+        height: 172px;
+        margin-bottom: 24px;
+    }
+    .header__work-list {
+        flex-wrap: wrap;
+    }
+    .main__work-list {
+        flex-wrap: wrap;
+    }
+    .footer__work-list {
+        flex-wrap: wrap;
+    }
+
+    /* comment page */
+
+    .comment-page {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        margin-bottom: 0px;
+        background-color: white;
+    }
+
+    .comment__text {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 24px;
+    }
+    .comment__cards {
+        flex-direction: column;
+    }
+
+    /* first com */
+
+    .first__com-card {
+        padding: 32px;
+        border-radius: 12px;
+        width: 343px;
+        transition: 0.5s;
+        margin-bottom: 24px;
+    }
+    .first__com-card:hover {
+        scale: 1;
+    }
+
+    .first__card-name {
+        color: black;
+        text-align: center;
+        margin-bottom: 4px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .first__card-link {
+        color: black;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* second com */
+
+    .second__com-card {
+        padding: 32px;
+        border-radius: 12px;
+        width: 343px;
+        transition: 0.5s;
+        margin-bottom: 24px;
+    }
+    .second__com-card:hover {
+        scale: 1;
+    }
+
+    .second__card-name {
+        color: black;
+        text-align: center;
+        margin-bottom: 4px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .second__card-link {
+        color:black;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* thrid com card */
+
+    .thrid__com-card {
+        padding: 32px;
+        border-radius: 12px;
+        width: 343px;
+        transition: 0.5s;
+        margin-bottom: 24px;
+    }
+    .thrid__com-card:hover {
+        scale: 1;
+    }
+
+    .thrid__card-name {
+        color: black;
+        text-align: center;
+        margin-bottom: 4px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .thrid__card-link {
+        color: black;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* footer */
+
+    footer {
+        padding-top: 64px;
+        margin-bottom: 0px;
+    }
+
+    .footer__title {
+        width: 122px;
+        margin-bottom: 16px;
+        padding: 4px 20px;
+    }
+    .footer__text {
+        color: black;
+        margin-bottom: 24px;
+        width: 343px;
+    }
+    .footer__email {
+        margin-bottom: 16px;
+        position: relative;
+        left: 20px;
+        width: 332px;
+
+        & a {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 28px;
+            color: black;
+
+            & span {
+                color: black;
+            }
+
+            & .footer__icon-right {
+                margin-left: 15px;
+            }
+
+            & .footer-icon {
+                font-size: 24px;
+                color: black;
+                margin-right: 15px;
+            }
+        }
+    }
+    .footer__number {
+        width: 332px;
+        margin-bottom: 24px;
+        position: relative;
+        left: 60px;
+
+        & a {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 28px;
+            color: black;
+            & span {
+                color: black;
+            }
+            & .footer__icon-right {
+                margin-left: 15px;
+            }
+
+            & .footer-icon {
+                font-size: 24px;
+                color: black;
+                margin-right: 15px;
+            }
+        }
+    }
+    .footer__type {
+        width: 312px;
+        color:black;
+        font-size: 16px;
+        line-height: 24px;
+        position: relative;
+        left: 20px;
+    }
+    .footer__links {
+        margin-bottom: 64px;
+    }
+
+    .footer__bottom {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        background-color: white;
+    }
+    .end__title {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
